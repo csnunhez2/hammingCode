@@ -68,7 +68,7 @@ int main(){
 		case 1:
 			fflush(stdin);
 			printf("Introduzca cadena a codificar: ");
-			scanf("%s",c);
+			scanf("%[^\n]",c);
 			
 			printf("Caracter\tBinario\t\tBinario Codificado\n");
 			
